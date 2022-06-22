@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url('https://www.wowpatterns.com/assets/files/resource_images/cocktail-drinks-seamless-vector-pattern.jpg');
+}
+
+main {
+  width: 75%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 100px;
+  padding: 50px;
+}
+
+h1, h2, h3, h4, p, span {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+img{
+
+  margin: 0 auto;
+  height: 400px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
